@@ -10,16 +10,16 @@ on:
         default: 'false'
         
 env:
-  # 这里填入你的SDK的地址，在https://downloads.openwrt.org/releases/中找到你的OpenWRT版本的SDK
+  # Fill in the address of your SDK here, find your OpenWRT version SDK in https://downloads.openwrt.org/releases/
   SDK_URL: https://downloads.openwrt.org/releases/22.03.2/targets/x86/64/openwrt-sdk-22.03.2-x86-64_gcc-11.2.0_musl.Linux-x86_64.tar.xz
-  # 这里填入你的设备的配置文件
+  # Fill in the configuration file of your device here
   CONFIG_FILE: device/x86-64.config
-  # 这里填入要编译包的信息
+  # Fill in the information to compile the package here
   PACKAGE_REPO: https://github.com/yichya/luci-app-xray.git
   PACKAGE_NAME: luci-app-xray
   PACKAGE_BRANCH: master
-  # 下方参数保持默认即可
-  TZ: Asia/Shanghai
+  # The following parameters can be kept as default
+  TZ: Asia/Tehran
 
 jobs:
   build:
