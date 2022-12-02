@@ -15,8 +15,8 @@ env:
   # Fill in the configuration file of your device here
   CONFIG_FILE: device/x86-64.config
   # Fill in the information to compile the package here
-  PACKAGE_REPO: https://github.com/yichya/luci-app-xray.git
-  PACKAGE_NAME: luci-app-xray
+  PACKAGE_REPO: https://github.com/haiibo/openwrt-packages.git
+  PACKAGE_NAME: *
   PACKAGE_BRANCH: master
   # The following parameters can be kept as default
   TZ: Asia/Tehran
